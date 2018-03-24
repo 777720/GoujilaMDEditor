@@ -14,6 +14,7 @@ Open source editor for writing math formulas
 
 >  这个项目主要用react构建
 
+> [npm地址](https://www.npmjs.com/package/goujila-md-editor)
 
 ## 项目运行（nodejs 6.0+）
 ``` bash

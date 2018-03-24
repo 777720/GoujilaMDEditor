@@ -1,10 +1,16 @@
 {
   "name": "goujila-md-editor",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.2",
+  "description": "Open source editor for writing math formulas",
+  "main": "lib/index.js",
   "scripts": {
-    "simple": "./node_modules/.bin/webpack-dev-server --inline --config ./sample/webpack.config.js"
+    "simple": "./node_modules/.bin/webpack-dev-server --inline --config ./sample/webpack.config.js",
+    "compile": "./node_modules/.bin/babel -d lib/ -D src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/777720/GoujilaMDEditor.git"
   },
   "author": "geek720",
   "license": "MIT",
@@ -18,6 +24,8 @@
     "react-dom": "^16.2.0"
   },
   "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "babel-preset-env": "^1.6.1",
