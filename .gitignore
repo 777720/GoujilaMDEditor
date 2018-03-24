@@ -1,0 +1,9 @@
+
+
+### mac ###
+.DS_Store
+
+### npm ###
+node_modules/
+.vscode/
+
