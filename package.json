@@ -1,6 +1,6 @@
 {
   "name": "goujila-md-editor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Open source editor for writing math formulas",
   "main": "lib/index.js",
   "scripts": {
